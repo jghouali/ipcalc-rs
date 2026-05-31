@@ -1,0 +1,7 @@
+[package]
+authors = ["Jeremy Ghouali <jghouali@gmail.com>"]
+name = "ipcalc-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
