@@ -48,9 +48,9 @@ $ ipcalc-rs -n -b -m 10.0.0.1/24
 Network: 10.0.0.0/24
 Broadcast: 10.0.0.255/24
 Mask: 255.255.255.0/24
-
-Auteur
+```
+## Auteur
 Jeremy Ghouali — jghouali@gmail.com
 
-Licence
+## Licence
 MIT
