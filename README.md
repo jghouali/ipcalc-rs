@@ -19,7 +19,7 @@ cd ipcalc-rs
 cargo build --release
 Le binaire se trouve dans target/release/ipcalc-rs.
 ```
-Utilisation
+## Utilisation
 ```bash
 # Affiche uniquement l’adresse
 ipcalc-rs 192.168.1.10/24
