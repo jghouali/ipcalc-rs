@@ -18,8 +18,9 @@ git clone <url-du-repo>
 cd ipcalc-rs
 cargo build --release
 Le binaire se trouve dans target/release/ipcalc-rs.
-
+```
 Utilisation
+```bash
 # Affiche uniquement l’adresse
 ipcalc-rs 192.168.1.10/24
 # Affiche le réseau et le broadcast
@@ -39,9 +40,9 @@ Première adresse hôte utilisable
 Dernière adresse hôte utilisable
 -c --count
 Nombre d’hôtes dans le sous-réseau
-
+```
 L’adresse IP (avec ou sans /cidr) doit être passée en argument positionnel. Sans CIDR, le masque par défaut est /32 (IPv4) ou /128 (IPv6).
-
+```bash
 Exemple de sortie
 $ ipcalc-rs -n -b -m 10.0.0.1/24
 10.0.0.1/24
